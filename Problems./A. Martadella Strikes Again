@@ -1,0 +1,42 @@
+// A. Martadella Strikes Again
+// URL: https://codeforces.com/group/Rilx5irOux/contest/534685/problem/A
+// Time: 2/10/2026, 01:02:42 PM
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define el '\n'
+#define all(x) (x).begin(), (x).end()
+#define rall(x) (x).rbegin(), (x).rend()
+// fixed << setprecision()
+const string IN = "input.txt", OUT = "output.txt";
+#define tc(test) ll t = 1; if (test) cin >> t; while (t--) ASAAD()
+#define FIn cin.tie(0);cout.tie(0);ios_base::sync_with_stdio(false);
+#define file freopen("promote.in", "r", stdin); freopen("promote.out", "w", stdout)
+#define OJudge(in,out) freopen(in, "r", stdin); freopen(out, "w", stdout)
+
+void Usif() {
+// The Martadella  is a cri;
+// The Shahhoud -> radius is R && Saeed -> radius is r;
+// print 1 if shahhous is larger than the saeed else print 2;
+          
+    int T;
+    cin >> T;
+
+    while (T--) {
+        long long R, r;
+        cin >> R >> r;
+
+        if (R * R > 2LL * r * r)
+            cout << "1\n";
+        else
+            cout << "2\n";
+    }
+}
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    Usif();
+    return 0;
+}
+
