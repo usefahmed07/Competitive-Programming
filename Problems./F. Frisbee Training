@@ -1,0 +1,44 @@
+// F. Frisbee Training
+// URL: https://codeforces.com/gym/104415/problem/F
+// Time: 2/12/2026, 12:32:42 PM
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define el '\n'
+#define all(x) (x).begin(), (x).end()
+#define rall(x) (x).rbegin(), (x).rend()
+// fixed << setprecision()
+const string IN = "input.txt", OUT = "output.txt";
+#define tc(test) ll t = 1; if (test) cin >> t; while (t--) ASAAD()
+#define FIn cin.tie(0);cout.tie(0);ios_base::sync_with_stdio(false);
+#define file freopen("promote.in", "r", stdin); freopen("promote.out", "w", stdout)
+#define OJudge(in,out) freopen(in, "r", stdin); freopen(out, "w", stdout)
+
+void Usif() {
+    ll x , y , v , t; 
+    cin >> x >> y >> v >> t;
+
+    long long distance = x*x + y*y;
+    long long maxdis = v * t;
+
+    if (distance <= maxdis * maxdis){
+        cout << "YES\n";
+    }
+    else {
+        cout << "NO\n";
+    }
+}
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int T;
+    cin >> T;
+    while(T--) {
+        Usif();
+    }
+
+    return 0;
+}
+
