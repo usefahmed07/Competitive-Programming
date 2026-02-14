@@ -15,17 +15,18 @@ const string IN = "input.txt", OUT = "output.txt";
 #define OJudge(in,out) freopen(in, "r", stdin); freopen(out, "w", stdout)
 
 void Usif() {
-    string x; cin >> x;
-    if (x == KaaaKaaaKaaa){
-        cout <<"Woken Up"<<"\n";
-    }
-    else {
-        cout <<"Still Asleep"<<"\n";
+    string x; 
+    cin >> x;
+
+    if (x == "KaaaKaaaKaaa") {
+        cout << "Woken Up" << "\n";
+    } else {
+        cout << "Still Asleep" << "\n";
     }
 }
+
 int main() {
     ios::sync_with_stdio(false); cin.tie(nullptr);
     Usif();
     return 0;
 }
-
