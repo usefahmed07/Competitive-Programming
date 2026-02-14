@@ -13,7 +13,6 @@ const string IN = "input.txt", OUT = "output.txt";
 #define FIn cin.tie(0);cout.tie(0);ios_base::sync_with_stdio(false);
 #define file freopen("promote.in", "r", stdin); freopen("promote.out", "w", stdout)
 #define OJudge(in,out) freopen(in, "r", stdin); freopen(out, "w", stdout)
-
 void Usif() {
     string x; 
     cin >> x;
