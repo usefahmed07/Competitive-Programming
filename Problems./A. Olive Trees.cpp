@@ -17,7 +17,7 @@ const int MOD = 1000000007, INF = 2e18;
 // fixed << setprecision()
 void solve() {
     int a , b , c; cin >> a >> b >> c;
-    cout <<max ({a,b,c})<<"\n";
+    cout << max({a + b, a + c, b + c});
 }
 /*
  
