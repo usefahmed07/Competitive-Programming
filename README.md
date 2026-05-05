@@ -33,5 +33,4 @@ track and share my journey from this point forward.
 Feel free to use or fork this repository for your own practice.
 
 <div align="center">
-  <sub>Assembled with ❤️ in Cairo.</sub>
 </div>
